@@ -1,0 +1,32 @@
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aptai"
+version = "1.2.2"
+description = "Advanced AI-powered SDK for DeFi & NFT analytics on Aptos"
+authors = [
+    {name = "Teck"}
+]
+dependencies = [
+    "requests",
+    "groq",
+    "setuptools>=76.0.0"
+]
+requires-python = ">=3.11"
+readme = {file = "README.md", content-type = "text/markdown"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Teck/aptai"
+X = "https://x.com/Teckdegen"
+Telegram = "https://t.me/Teck_degen"
+
+[tool.setuptools]
+packages = ["aptai"]
